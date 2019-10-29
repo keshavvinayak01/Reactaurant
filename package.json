@@ -1,0 +1,29 @@
+{
+  "name": "reactuarant",
+  "version": "1.0.0",
+  "description": "A scraper of sorts, aims to fetch data about food from various sources",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keshavvinayak01/Reactaurant.git"
+  },
+  "keywords": [
+    "Javascript",
+    "React",
+    "Django",
+    "Python",
+    "Scraping"
+  ],
+  "author": "Keshav Vinayak Jha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keshavvinayak01/Reactaurant/issues"
+  },
+  "homepage": "https://github.com/keshavvinayak01/Reactaurant#readme",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  }
+}
