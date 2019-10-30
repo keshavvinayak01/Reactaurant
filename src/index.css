@@ -5,6 +5,7 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow : hidden;
 }
 
 body {
@@ -20,7 +21,6 @@ body {
 }
 
 #root {
-  overflow: hidden;
 }
 
 .card1,
@@ -33,9 +33,10 @@ body {
   position: absolute;
   border-radius: 5px;
   background-size: cover;
-  z-index : -1;
+  z-index : 1;
   background-position: center center;
   background-repeat: no-repeat;
+  opacity : 0.65 !important;
   will-change: transform;
 }
 
@@ -84,9 +85,16 @@ body {
 }
 
 .container {
+  background-image: url("assets/images/Polka-Dots.svg");
   width: 100%;
+  z-index : -100;
   height: 100%;
+  margin-bottom : 100px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.search-box {
+  color : black;
+  margin-top : 200px;
 }
