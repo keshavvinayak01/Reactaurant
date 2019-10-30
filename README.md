@@ -13,6 +13,7 @@
 
 ## Course of actions :scroll: : 
 - [x] Initialize JSON Server
+- [x] React-Babel-Webpack Boilerplate
 - [ ] Create styled homepage (React)
 - [ ] Scrape real data from sources.
 - [ ] Transition to REST APIs + GraphQL
