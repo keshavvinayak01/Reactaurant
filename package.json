@@ -4,7 +4,10 @@
   "description": "A scraper of sorts, aims to fetch data about food from various sources",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/webpack-dev-server --mode development --open --hot",
+    "build": "node_modules/.bin/webpack --config webpack.prod.js --mode production",
+    "serve": "node_modules/.bin/http-server ./dist"
   },
   "repository": {
     "type": "git",
@@ -24,6 +27,24 @@
   },
   "homepage": "https://github.com/keshavvinayak01/Reactaurant#readme",
   "dependencies": {
-    "json-server": "^0.15.1"
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "json-server": "^0.15.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "http-server": "^0.11.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
   }
 }
