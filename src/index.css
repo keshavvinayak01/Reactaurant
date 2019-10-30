@@ -1,13 +1,92 @@
-body {
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu,
+    roboto, noto, segoe ui, arial, sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+#root {
+  overflow: hidden;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7 {
+  position: absolute;
+  border-radius: 5px;
+  background-size: cover;
+  z-index : -1;
+  background-position: center center;
+  background-repeat: no-repeat;
+  will-change: transform;
+}
+
+.card1 {
+  width: 15vw;
+  height: 15vw;
+  background-image: url(assets/images/zomato.png);
+}
+
+.card2 {
+  width: 20ch;
+  height: 25ch;
+  background-image: url(assets/images/swiggy.png);
+}
+
+.card3 {
+  opacity: 0.9;
+  width: 25ch;
+  height: 25ch;
+  background-image: url(assets/images/uber.png);
+}
+
+.card4 {
+  width: 20ch;
+  height: 20ch;
+  background-image: url(assets/images/foodpanda.png);
+}
+
+.card5 {
+  width: 20ch;
+  height: 20ch;
+  background-image: url(assets/images/fassos.png);
+}
+
+.card6 {
+  opacity : 0.9;
+  width: 20ch;
+  height: 20ch;
+  background-image: url(assets/images/dominos.png);
+}
+
+.card7 {
+  width: 20ch;
+  height: 20ch;
+  background-image: url(assets/images/mcdonalds.png);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
