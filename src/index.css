@@ -19,10 +19,6 @@ body {
   user-select: none;
   cursor: default;
 }
-
-#root {
-}
-
 .card1,
 .card2,
 .card3,
@@ -84,7 +80,7 @@ body {
   background-image: url(assets/images/mcdonalds.png);
 }
 
-.container {
+.container-home {
   background-image: url("assets/images/Polka-Dots.svg");
   width: 100%;
   z-index : -100;
@@ -94,7 +90,13 @@ body {
   align-items: center;
   justify-content: center;
 }
-.search-box {
-  color : black;
-  margin-top : 200px;
+h1.title {
+  z-index : 10;
+  color : white;
+  text-align : center!important;
+  position : fixed;
+  font-weight: lighter;
+  left : 34%;
+  font-size:5.5em;
+  font-family: 'Pacifico', cursive;
 }
